@@ -1,0 +1,65 @@
+body{
+	background-color: grey;
+}
+
+.container{
+	width: 800px;
+	height: 500px;
+	display: flex;
+	background-color: white;
+	margin-left: 300px;
+	margin-top: 140px;
+}
+.hero{
+	
+}
+.hero img{
+	height: auto;
+	width: 320px;
+	margin-left: 80px;
+	margin-top: 90px;
+}
+.menu{
+	margin-left: 90px;
+	margin-top: 100px;
+}
+h2{
+	text-transform: capitalize;
+
+}
+span{
+	color: #f9004d;
+
+}
+form{
+	flex-direction: column;
+	border-radius: 0.9rem;
+	gap: 20px;
+}
+form input{
+	border-radius: 0.5rem;
+	border-spacing: 30px;
+	margin-bottom: 1.4rem;
+}
+form input:focus{
+	border: 1.8px solid;
+}
+form .login{
+	border: none;
+	outline: none;
+	background: #1877f2;
+	padding: 0.8rem 1rem;
+	color: #fff;
+}
+form .login:hover{
+	cursor: pointer;
+
+}
+h5{
+	opacity: !important;
+	text-transform: capitalize;
+
+}
+.menu a{
+
+}
